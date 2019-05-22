@@ -18,6 +18,8 @@ set colorcolumn=80
 set comments=sl:/*,mb:\ *,elx:\ */
 syntax on
 highlight ColorColumn ctermbg=240
+nmap <F6> :NERDTreeToggle<CR>
+
 
 if (has("termguicolors"))
  set termguicolors
